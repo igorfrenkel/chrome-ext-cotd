@@ -1,0 +1,19 @@
+{
+  "name": "Show Imgur Gallery",
+  "version": "1.1",
+  "description": "Show imgur links as images in gallery",
+  "permissions": [
+     "bookmarks"
+  ],
+  "browser_action": {
+      "default_title": "Show Imgur Gallery",
+      "default_icon": "icon16x16.png",
+      "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16x16.png",
+    "48": "icon48x48.png",
+    "128": "icon128x128.png"
+  },
+  "manifest_version": 2
+}
