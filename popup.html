@@ -5,7 +5,18 @@
   	div.thumb-container { 
   		float: left;
       margin: 4px;
+      text-align:center;
   	}
+    div.thumb-container a {
+      text-decoration: none;
+    }
+    div.thumb-container a:first-child::after {
+      content: " ";
+    }
+    div.thumb-container a:hover {
+      text-decoration: none;
+      color: orange;
+    }
     h6 {
       margin: 0;
       text-align: center;
